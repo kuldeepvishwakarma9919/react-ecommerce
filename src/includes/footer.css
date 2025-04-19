@@ -1,0 +1,62 @@
+#F_TOP1 {
+      
+}
+
+#F_TOP1 .MAIN_HEAD{
+    font-size: 20px;
+    font-weight: 550;
+    font-family: Outfit, serif;
+} 
+#F_TOP1 ul li {
+    margin-top: 4px;
+}
+#F_TOP1 ul li a{
+    color: #5c6c75;
+    font-family: Outfit, serif;
+    font-size: 16px;
+}
+.B_TOP_IMG_R p{
+    color: #5c6c75;
+}
+
+.B_TOP_IMG_R p span{
+    color: #0aad0a;
+}
+
+
+#M_TOP1 h6{
+    font-size: 17px;
+    font-weight: bold;
+}
+#M_TOP1 .PAY_IMG {
+    margin: 0 10px;
+}
+#M_TOP1 .PAY_IMG img{
+     margin: 0 7px;
+     font-size: 20px;
+}
+#M_TOP1 .PAY_IMG img:hover{
+    cursor: pointer;
+    
+}
+
+#M_TOP1 #M_DIV_LEFT img{
+     width: 100px;
+     margin: 0 10px;
+}
+
+#B_TOP1 {
+    margin: 10px 0;
+}
+#B_TOP1 p{
+    font-size: 15px;
+}
+
+.B_TOP_IMG i{
+    border: 1px solid #5c6c75;
+    padding: 8px;
+    color: #5c6c75;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 0 5px;
+}

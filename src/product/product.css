@@ -1,0 +1,45 @@
+.img-div{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-image {
+    cursor: pointer;
+    height: 300px; /* Fix the height */
+    object-fit: cover; /* Keep aspect ratio */
+    transition: transform 0.3s ease; /* Add smooth transition */
+    will-change: transform; /* Improve performance */
+  }
+
+  .main-image:hover {
+    transform: scale(1.1); /* Slightly enlarge the image */
+  }
+  
+  /* Thumbnails */
+  .thumb-image {
+    transition: transform 0.3s ease; /* Add smooth transition */
+    cursor: pointer;
+  }
+  
+  /* On hover, increase size of thumbnail */
+  .thumb-image:hover {
+    transform: scale(1.1);
+  }
+  
+
+
+  #PRO_DETAIL_TAB .nav-link{
+    color: rgb(92 108 117 / 75%);
+  }
+  #PRO_DETAIL_TAB ul {
+
+    border-bottom: 2px solid rgb(92 108 117 / 75%);
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #0aad0a !important;
+    border-bottom: 2px solid #0aad0a;
+    border-radius: 0 !important;
+    background-color: white;
+  }
